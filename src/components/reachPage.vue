@@ -12,8 +12,7 @@
                         <div class="input-feild">
                             <label>First Name *</label>
                             <div>
-                                <input type="text" v-model="form.firstName" :class="{ error: errors.firstName }"
-                                     />
+                                <input type="text" v-model="form.firstName" :class="{ error: errors.firstName }" />
                             </div>
                             <div v-if="errors.firstName" class="error-message">
                                 First name is required.
@@ -23,8 +22,7 @@
                         <div class="input-feild">
                             <label>Last Name *</label>
                             <div>
-                                <input type="text" v-model="form.lastName" :class="{ error: errors.lastName }"
-                                     />
+                                <input type="text" v-model="form.lastName" :class="{ error: errors.lastName }" />
                             </div>
                             <div v-if="errors.lastName" class="error-message">
                                 Last name is required.
@@ -36,7 +34,7 @@
                         <div class="input-feild">
                             <label>Email *</label>
                             <div>
-                                <input type="email" v-model="form.email" :class="{ error: errors.email }"  />
+                                <input type="email" v-model="form.email" :class="{ error: errors.email }" />
                             </div>
                             <div v-if="errors.email" class="error-message">
                                 Valid email is required.
@@ -287,6 +285,7 @@ input[type="checkbox"]:checked::after {
         left: auto;
         transform: none;
         height: 500px;
+        margin-bottom: -50px;
     }
 }
 
@@ -325,6 +324,7 @@ input[type="checkbox"]:checked::after {
         left: auto;
         transform: none;
         height: 500px;
+        margin-bottom: -50px;
     }
 
     .line1 {
