@@ -317,15 +317,14 @@ input[type="checkbox"]:checked::after {
     }
 
     .map {
-        padding-top: 20px;
+        padding-top: 40px;
         padding-left: 0;
-        width: 100%;
-        max-width: 100%;
-        position: relative;
-        left: 0;
+        width: calc(100% + 200px);
+        margin-left: -100px;
+        position: static;
+        left: auto;
         transform: none;
         height: 500px;
-        box-sizing: border-box;
     }
 
     .line1 {
